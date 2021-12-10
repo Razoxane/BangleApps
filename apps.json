@@ -1950,7 +1950,8 @@
     "storage": [
       {"name":"widmpsh.wid.js","url":"widget.js"},
       {"name":"widmpsh.settings.js","url":"settings.js"}
-    ]
+    ],
+    "data": [{"name":"widmpsh.json"}]
   },
   {
     "id": "minionclk",
