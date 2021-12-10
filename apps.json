@@ -1946,6 +1946,7 @@
     "type": "widget",
     "tags": "widget,tools",
     "supports": ["BANGLEJS","BANGLEJS2"],
+    "allow_emulator": true,
     "storage": [
       {"name":"widmpsh.wid.js","url":"widget.js"}
     ]
