@@ -4607,9 +4607,10 @@
   "version":"0.01",
   "description": "Simple app to power off your Bangle.js",
   "icon": "app.png",
-  "tags": "poweroff, shutdown",
+  "tags": "tool, poweroff, shutdown",
   "supports" : ["BANGLEJS", "BANGLEJS2"],
   "readme": "README.md",
+  "allow_emulator": true,
   "storage": [
     {"name":"poweroff.app.js","url":"app.js"},
     {"name":"poweroff.img","url":"app-icon.js","evaluate":true}
@@ -4827,7 +4828,7 @@
     "id": "ptlaunch",
     "name": "Pattern Launcher",
     "shortName": "Pattern Launcher",
-    "version": "0.01",
+    "version": "0.02",
     "description": "Directly launch apps from the clock screen with custom patterns.",
     "icon": "app.png",
     "tags": "tools",
