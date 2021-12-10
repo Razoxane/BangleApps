@@ -16,11 +16,10 @@
     "" : { "title" : "Messages" },
     "< Back" : back,
     'Orientation': {
-      value: Math.max(0,orientations.indexOf(settings().orientation)),
-      min: 0, max: orientations.length,
-      format: o => orientations[o]||"Off",
+      value: settings().orientation,
+      format: o => orientations[o],
       onchange: o => {
-        updateSetting("orientation", orientations[v]);
+        updateSetting("orientation", orientations[o]);
       }
     },
   };
