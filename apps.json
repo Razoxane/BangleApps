@@ -1948,8 +1948,8 @@
     "supports": ["BANGLEJS","BANGLEJS2"],
     "allow_emulator": true,
     "storage": [
-      {"name":"widmpsh.wid.js","url":"widget.js"}
-      {"name":"widmpsh.settings.js","url":"settings.js"},
+      {"name":"widmpsh.wid.js","url":"widget.js"},
+      {"name":"widmpsh.settings.js","url":"settings.js"}
     ]
   },
   {
